@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Doing Stuff With Data</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 text-center mt-3">
+          <h1 id="" class="">Mode!</h1>
+          <p class="pStyle">Insructions: Decide if you want ascending (asc) or descending (desc) order with the corresponding button and then pick a data type to sort by!</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-1 mt-5">
+          <button id="idBtn" type="button" class="btn btn-light">Id</button>
+        </div>
+        <div class="col-2 d-flex justify-content-center mt-5">
+          <button id="FirstNameBtn" type="button" class="btn btn-light">First Name</button>
+        </div>
+        <div class="col-2 d-flex justify-content-center mt-5">
+          <button id="LastNameBtn" type="button" class="btn btn-light">Last Name</button>
+        </div>
+        <div class="col-1 mt-5">
+          <button id="emailBtn" type="button" class="btn btn-light">Email</button>
+        </div>
+        <div class="col-1 mt-5">
+          <button id="ageBtn" type="button" class="btn btn-light">Age</button>
+        </div>
+        <div class="col-1 mt-5">
+          <button id="heightBtn" type="button" class="btn btn-light">Height</button>
+        </div>
+        <div class="col-1 mt-5">
+          <button id="ascBtn" type="button" class="btn btn-light">ASC</button>
+        </div>
+        <div class="col-1 mt-5">
+          <button id="descBtn" type="button" class="btn btn-light">DESC</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 mt-5 d-flex justify-content-center">
+          <div class="card" style="width: 75rem;">
+            <div id="" class="card-body px-0 pb-0 pt-3">
+              <div class="row mt-3">
+                <div class="col-2 d-flex justify-content-center">
+                    <p class="headersTxt">ID</p>
+                </div>
+                <div class="col-1">
+                  <p class="headersTxt">First</p>
+                </div>
+                <div class="col-1 d-flex justify-content-end">
+                  <p class="headersTxt">Last</p>
+                </div>
+                <div class="col-1">
+                  <!--Empty col-->
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                  <p class="headersTxt">Email Address</p>
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                  <p class="headersTxt">Height</p>
+                </div>
+                 <div class="col-2 d-flex justify-content-center">
+                   <p class="headersTxt">Age</p>
+                 </div>
+              </div>
+              <hr class="horizontalLineCreateElements"/>
+              <div id="injectHere">
+                <!-- Here is the original element!-->
+                <!-- <div class="row">
+                    <div class="col-2 d-flex justify-content-center">
+                      <p class="createElementStyle">1</p>
+                    </div>
+                    <div class="col-1">
+                      <p class="createElementStyle">Jesse</p>
+                    </div>
+                    <div class="col-1 d-flex justify-content-end">
+                      <p class="createElementStyle">Abarca</p>
+                    </div>
+                    <div class="col-1">
+                      
+                    </div>
+                    <div class="col-2 d-flex justify-content-center">
+                      <p class="createElementStyle">JesseAbarca88@gmail.com</p>
+                    </div>
+                    <div class="col-2 d-flex justify-content-center">
+                      <p class="createElementStyle">50 inches</p>
+                    </div>
+                     <div class="col-2 d-flex justify-content-center">
+                       <p class="createElementStyle">18</p>
+                     </div>
+                     <hr/>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!--End of the container-->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./scripts/app.js" type="module"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
