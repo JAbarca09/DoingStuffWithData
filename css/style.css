@@ -1,0 +1,28 @@
+body {
+  background-image: url("/assets/office.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
+  color: black;
+}
+
+.bgWhite {
+  background-color: rgba(246, 246, 246, 0.896);
+  border-radius: 10px;
+}
+
+.bgBlack {
+  background-color: white;
+  border-radius: 10px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: black;
+}
